@@ -51,15 +51,14 @@
     }
   }
   .nav {
-    // background-color: #000000;
     width: 100%;
     text-align: center;
     .item {
       display: block;
-      width: 48%;
-      border: 1px solid $bo;
-      margin-top: 12px !important;
-      margin-bottom: 12px !important;
+      width: 50%;
+      outline: 2px solid #fff;
+      padding-top: 12px;
+      padding-bottom: 12px;
       a {
         font-size: 1rem !important;
         line-height: 64px;
@@ -71,7 +70,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  color: $bo; //無效
+  color: $bo;
 }
 .footer-flex,
 .infos {
