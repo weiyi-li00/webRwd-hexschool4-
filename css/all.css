@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,700;1,900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header,
+.footer {
+  background-color: #aa0601;
+}
+
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header .header-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.header .logo img {
+  max-width: 80px;
+  height: auto;
+}
+
+.header .nav {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header .nav .item a {
+  width: 80px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 32px;
+  margin-left: 32px;
+  color: #fbf2f2;
+  text-decoration: none;
+}
+
+.header .nav .item a:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0;
+  }
+  .header .nav-logo {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .nav {
+    width: 100%;
+    text-align: center;
+  }
+  .nav .item {
+    display: block;
+    width: 48%;
+    border: 1px solid #ffffff;
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+  .nav .item a {
+    font-size: 1rem !important;
+    line-height: 64px;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.footer-flex,
+.infos {
+  border: 1px solid #ffffff;
+  width: 67%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-nav,
+.footer-icons {
+  display: flex;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-icons-item img {
+  max-width: 48px;
+  height: auto;
+}
+
+.footer-nav-item,
+.footer-flex > p {
+  font-size: 1rem;
+}
+
+.footer-flex-item {
+  display: flex;
+  font-size: 14px;
+}
+
+.infos-item {
+  font-size: 36px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+/*# sourceMappingURL=all.css.map */
